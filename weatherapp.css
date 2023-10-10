@@ -53,7 +53,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.weather img{
+.weather-icon{
     width: 35%;
     height: auto;
 }
@@ -100,8 +100,16 @@ body{
 .ws{
     font-size: 13px;
 }
-
-
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    font-size: 14px;
+    margin-left: 25px;
+    color: white;
+    display: none;
+}
 
 
 
